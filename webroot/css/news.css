@@ -1,0 +1,60 @@
+.news {
+    margin-top: 20px;
+}
+
+.news .title {
+    font: 15pt 'Boblic', Arial, sans-serif;
+}
+
+.news .date {
+    margin: 3px 10px;
+    background: url("../img/clock.gif") no-repeat left center;
+    padding-left: 13px;
+}
+
+.news .body {
+    font: 13px/1.5 Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.news .title:hover {
+    text-decoration: none;
+}
+
+.news .more {
+    font-style: italic;
+    font-size: 110%;
+    padding-left: 15px;
+}
+
+.news .more:hover {
+    text-decoration: none;
+}
+
+.top {
+    padding: 10px;
+    border: 3px double #fd5c48;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pages {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #fd5c48;
+    font-size: 110%;
+}
+
+.pages a {
+    text-decoration: underline;
+    margin-right: 3px;
+    margin-left: 3px;
+
+}
+
+.pages a:hover {
+    text-decoration: none;
+}

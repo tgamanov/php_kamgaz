@@ -1,0 +1,80 @@
+#contact-info {
+    padding-left: 10px;
+    font-size: 15px;
+}
+#contacts {
+    margin-top: 20px;
+    padding-top: 5px;
+    border-top: 2px solid #b2b2b2;
+}
+
+#contacts h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    #contact-info {
+        float: left;
+        display: inline-block;
+        width: 50%;
+    }
+
+    #map {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #contact-info {
+        float: left;
+        display: inline-block;
+        width: 50%;
+    }
+
+    #map {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #contact-info {
+        display: block;
+        width: 100%;
+    }
+    #map {
+        margin-top: 15px;
+        float: left;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    #contact-info {
+        display: block;
+        width: 100%;
+    }
+    #map {
+        margin-top: 15px;
+        float: left;
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 1001px) {
+    #contact-info {
+        float: left;
+        display: inline-block;
+        width: 50%;
+    }
+
+    #map {
+        float: right;
+        display: inline-block;
+    }
+}

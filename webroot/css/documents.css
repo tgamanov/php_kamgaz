@@ -1,0 +1,30 @@
+#documents {
+    margin-top: 15px;
+}
+
+#documents ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#documents li {
+    margin-top: 5px;
+    border-bottom: 1px solid #d7d7d7;
+    list-style: none;
+    background: url("../img/document.png") no-repeat left center;
+    padding-left: 20px;
+}
+
+#documents li:hover {
+    background: url("../img/document_hover.png") no-repeat left center;
+    padding-left: 25px;
+}
+
+#documents a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#documents a:hover {
+    text-decoration: underline;
+}
